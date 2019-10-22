@@ -48,7 +48,7 @@ SIZE = max(y_height, x_length)+1
 BUFFER = 1
 coords = [[" "*2 for i in range (SIZE+BUFFER)] for i in range (SIZE+BUFFER)]
 
-# Draw the axes
+# Draw the axis
 # x-axis:
 if min_y >= 0:
     ZERO_LINE = SIZE-1
