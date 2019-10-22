@@ -15,7 +15,7 @@ for i in range (len(a)):
 a.sort()
 b.sort()
 
-# Now, we get the lower bound of where we should start searching
+# Now, we get the lower bound of where we should start our search
 lower_bound = max(a[0], b[0])
 upper_bound = min(a[len(a)-1], b[len(b)-1])
 '''
